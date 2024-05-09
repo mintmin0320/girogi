@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-import { Header } from '@/shared/@common/layout'
+import Header from '@/shared/@common/ui/Header'
 import '../../css/globals.css'
 
 export const metadata: Metadata = {
