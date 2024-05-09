@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
-import './globals.css'
+
+import { Header } from '@/shared/@common/layout'
+import '../../css/globals.css'
 
 export const metadata: Metadata = {
   title: '기로기',
@@ -13,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
