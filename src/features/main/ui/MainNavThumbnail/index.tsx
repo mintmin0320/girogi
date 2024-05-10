@@ -19,6 +19,7 @@ export default function MainNavThumbnail() {
               height={180}
               alt={label}
               className="rounded-full"
+              priority
             />
             <figcaption className="text-[26px] font-bold">{label}</figcaption>
           </figure>

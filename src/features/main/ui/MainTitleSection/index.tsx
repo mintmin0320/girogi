@@ -13,7 +13,7 @@ export default function MainTitleSection() {
           승인
         </div>
         <figure className="flex h-[90px] w-[134px] items-center justify-center">
-          <Image src={stamp} width={85} height={15} alt="stamp" />
+          <Image src={stamp} width={85} height={15} alt="stamp" priority />
         </figure>
       </div>
     </section>
