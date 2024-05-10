@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import { mainMenuOption } from '../constants/mainNavOptions'
-import QuestionBanner from './QuestionBanner'
+import { mainMenuOption } from '../../constants/mainNavOptions'
+import QuestionBanner from '../QuestionBanner'
 
 export default function MainNavThumbnail() {
   return (

@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
-import { menuOption } from '../constants/menuOptions'
+import { menuOption } from '../../constants/menuOptions'
 
 export default function Header() {
   return (
-    <header className="mx-auto flex items-center border border-x-0 border-t-0 px-[48px] py-[23px]">
+    <header className="mx-auto flex items-center border border-x-0 border-t-0 bg-[#FAFAFA] px-[48px] py-[23px]">
       <nav className="flex w-full justify-between">
         <Link href="/" className="text-[28px] font-bold">
           기로기
